@@ -1,0 +1,8 @@
+print('Enter first number',end=' ')
+first_num=int(input())
+print('Enter second number',end=' ')
+second_num=int(input())
+print(first_num)
+print(second_num)
+print(first_num+second_num)
+print(first_num*second_num)

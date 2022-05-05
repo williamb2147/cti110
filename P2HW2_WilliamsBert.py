@@ -5,7 +5,7 @@
 #
 
 #This program is to calculate the final results of the scores.
-#It will find the Average, Lowest, and Create a modified list.
+#It will find the Average, Lowest, and Create a modified list removing the lowest score.
 #The user enteries will allow the code to finalize the output.
 #The score input will use the float to add decimal places.
 
@@ -32,6 +32,7 @@ score7=float(input())
 
 #The code below allows the calculations for the results.
 #If you are to add new amount or delete the amount of scores above make sure to do the same to the final scores
+#The min, sum, and len input code will automatically find the lowest and the total and divide with len to find the average score.
 
 final_scores=[score1,score2,score3,score4,score5,score6,score7]
 lowest_score=min(final_scores)

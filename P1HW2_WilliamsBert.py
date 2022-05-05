@@ -3,6 +3,7 @@
 #CTI-110 P1HW2-Pizza Order
 #Williams, Bert
 #
+
 print('Please enter number of student.')
 guest_num=int(input())
 slice_num=guest_num*3

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lan="en">
+	<meta charset="UTF-8">
+		<title>Form</title>
+	<body>		
+		<style>
+		 .vl {
+			border-left: 1990px solid grey;
+			height:1px; 
+			} 
+		</style>
+		<div class="vl"></div>
+			<table>
+				<nav>			
+					<a href="WHW1_WilliamsBert.html"> Home</a> &nbsp;
+					<a href="WHW2_BertWilliams.html">Table</a> &nbsp;
+					<a href="WHW2_Form_BertWilliams.html">Form</a> &nbsp;
+					<a href="https://www.w3schools.com/">W3Schools.com</a> &nbsp; 
+				</nav>
+			</table>
+			<style>
+		 .vl {
+			border-left: 1990px  solid grey;
+			height:1px; 
+			} 
+		</style>
+			<form>
+				<label for="first">First name:</label>
+				<input type="text" name="first" id="first"></input><br>
+				<label for="last">Last name:</label>
+				<input type="text" name="last" id="last"><br>
+				<label for="comment">Comments:</label><br>
+				<textarea id="comment" name="comment" placeholder="Comment box" rows="15" cols="50"></textarea><br>
+				<input type="submit" value="Submit">
+				
+			</form>
+	</body>	
+</html>		
